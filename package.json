@@ -1,0 +1,35 @@
+{
+  "name": "blog-tdd",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "chai": "^4.1.2",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "mocha": "^4.0.1",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.13.0",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
+  },
+  "description": "",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RizQjoe/blog-tdd-1.git"
+  },
+  "author": "RizQjoe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RizQjoe/blog-tdd-1/issues"
+  },
+  "homepage": "https://github.com/RizQjoe/blog-tdd-1#readme"
+}
