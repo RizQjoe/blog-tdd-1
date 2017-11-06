@@ -22,4 +22,26 @@ describe('GET route/article', ()=>{
 })
 
 
+describe('POST route/ article', ()=>{
+    it('test connect to endpoint return status OK !!!', ()=>{
+        return axios.post('http://localhost/article')
+        .then(response=>{
+            response.status.should.equal(200)
+        })
+    })
+    it('its POST data to DB return log data', ()=>{
+        return axios.post('http://localhost:3000/article', {
+            judul: 'coba db mongo',
+            detail: 'coba coba melempar mongo',
+            author: 'RizQjoe'
+        })
+        .then(response=>{
+            response.data.judul.should.equal('coba db mongo')
+        })
+    })
+})
+
+
+
+
 
